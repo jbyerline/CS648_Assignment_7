@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 07 - Part 5</title>
+    <script src="js/dom-practice.js"></script>
+    <script>
+        window.document.addEventListener("DOMContentLoaded", init);
+        function init() {
+            window.document.getElementById("button4").addEventListener("click", function () {
+                window.alert("I have been clicked");
+            });
+        }
+    </script>
+</head>
+<body>
+<h3>STEP 1</h3>
+<button onclick="displayMsg1();">STEP 1</button>
+
+<h3>STEP 2</h3>
+<button id="button1">STEP 2</button>
+
+<h3>STEP 3</h3>
+<button id="button2">STEP 3</button>
+
+<h3>STEP 4</h3>
+<button id="button3">STEP 4</button>
+
+<h3>STEP 5</h3>
+<button id="button4">STEP 5</button>
+</body>
+</html>
